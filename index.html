@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="shortcut icon" href="./src/img/favu.ico" type="image/x-icon">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo-header">&lt;<span class="logo-cor">U</span>&gt;</h1>
+        <nav>
+            <a href="#">Cursos</a>
+            <a href="#">Contatos</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+    <main> 
+        <div class="urban">
+            <h1 class="titulo">Urban Academy &lt;<span class="logo-cor">U</span>&gt;</h1>
+            <p class="paragrafo">Tudo que você precisa para ser um programador de sucesso esta aqui!</p>
+        </div>
+        <div class="login">
+            <form action="" method="post">
+                <label for="iuser">Username: </label>
+                <input type="text" name="user" id="iuser" required placeholder="ex: batata_frita" minlength="6" maxlength="8"><br>
+                <label for="ipass">Password: </label>
+                <input type="password" name="pass" id="ipass" required placeholder="ex: batata123" minlength="6" maxlength="8">
+                <a href="#" class="esqueceu">Esqueceu a senha?</a>
+                <input type="submit" value="Entrar" id="isub">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
